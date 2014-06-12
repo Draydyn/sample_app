@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require_tree .
+//= require wiselinks
+$(document).ready ->
+    window.wiselinks = new Wiselinks()
